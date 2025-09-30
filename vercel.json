@@ -1,14 +1,5 @@
 {
   "buildCommand": "npm run build:vercel",
-  "outputDirectory": "dist/public",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "outputDirectory": "dist/public"
 }
 
