@@ -11,8 +11,7 @@ import StickyMobileCTA from "@/components/StickyMobileCTA";
 
 export default function LandingPage() {
   const handleCTAClick = () => {
-    console.log('CTA clicked - would redirect to checkout');
-    alert('Em breve você será direcionado para o checkout!');
+    window.open('https://pay.cakto.com.br/4t7pnvz_591017', '_self');
   };
 
   return (
