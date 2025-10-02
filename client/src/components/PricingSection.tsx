@@ -22,7 +22,7 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
   ];
 
   return (
-    <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-background to-muted/30 overflow-hidden">
+    <section id="pricing" className="py-16 md:py-24 px-4 bg-gradient-to-b from-background to-muted/30 overflow-hidden">
       <div className="max-w-6xl mx-auto overflow-hidden">
         <div className="text-center mb-12">
           <Badge className="text-base px-4 py-2 bg-warning text-warning-foreground mb-4" data-testid="badge-limited-offer">
