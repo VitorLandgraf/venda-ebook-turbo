@@ -14,9 +14,19 @@ export default function LandingPage() {
     window.open('https://pay.cakto.com.br/4t7pnvz_591017', '_self');
   };
 
+  const handleHeroScroll = () => {
+    const pricingSection = document.getElementById('pricing');
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen overflow-x-hidden w-full">
-      <HeroSection onCTAClick={handleCTAClick} />
+      <HeroSection onCTAClick={handleHeroScroll} />
       <ProblemSection />
       <SolutionSection />
       <BonusSection />
